@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<launch>
+
+  
+
+  <!-- line detector-->
+  <!-- <node pkg="hack2024" type="sonic.py" name="sonic" output="screen"/> -->
+  <!-- <node pkg="hack2024" type="line.py" name="line_detection" output="screen"/>
+  <node pkg="hack2024" type="stop_line.py" name="stopline_detection" output="screen"/> -->
+  <node pkg="hack2024" type="main.py" name="main_driver" output="screen"/>
+ 
+ 
+  
+</launch>
+

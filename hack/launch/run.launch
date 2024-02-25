@@ -1,0 +1,11 @@
+<!-- -*- mode: XML -*- -->
+<launch>
+
+  <!-- Node running -->
+  <!-- <node pkg="icecar" type="yolo_person.py" name="yolo_person" output="screen"/> -->
+  <node pkg="hack" type="redzone.py" name="redzone_detection" output="screen"/>
+  <node pkg="hack" type="line.py" name="line" output="screen"/>
+  <node pkg="hack" type="stop_line.py" name="stline" output="screen"/>
+
+
+</launch>

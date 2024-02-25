@@ -1,0 +1,10 @@
+<!-- -*- mode: XML -*- -->
+<launch>
+
+  <!-- Node running -->
+  <!-- <node pkg="icecar" type="yolo_person.py" name="yolo_person" output="screen"/> -->
+
+  <node pkg="hack" type="display.py" name="display" output="screen"/>
+
+
+</launch>
